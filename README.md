@@ -1,2 +1,1 @@
-# Algorithm
-개인 알고리즘 기록
+[BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub)
