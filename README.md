@@ -1,4 +1,4 @@
-# 알고리즘
+# Algorithm
 ## 관리
 [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub)
 ## 풀이 언어
