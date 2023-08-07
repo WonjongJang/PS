@@ -1,6 +1,6 @@
 # Algorithm
-## 관리
+## Settings
 [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub)
-## 풀이 언어
+## Language
 - 프로그래머스 - JavaScript
 - 백준 - Python
