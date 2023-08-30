@@ -1,4 +1,4 @@
-# Algorithm
+# Problem Solving
 ## Settings
 - [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub)
 ## Language
