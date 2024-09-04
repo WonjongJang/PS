@@ -8,11 +8,12 @@ function solution(arr) {
 
 	return answer;
 
-	//     for (a of arr) {
-	//         if (answer.at(-1) !== a) {
-	//             answer.push(a)
-	//         }
-	//     }
+    // [시간초과]
+    // for (a of arr) {
+    //     if (answer.at(-1) !== a) {
+    //         answer.push(a)
+    //     }
+    // }
 
-	// 	return answer;
+    // return answer;
 }
