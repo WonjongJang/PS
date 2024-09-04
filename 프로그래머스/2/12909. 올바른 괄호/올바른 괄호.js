@@ -2,7 +2,7 @@ function solution(s) {
 	const parentheses = s.split(''); // string to array
 
 	const stack = [];
-	for (p of parentheses) {
+	for (const p of parentheses) {
 		if (p === ')') {
 			if (stack.at(-1) === '(') {
 				stack.pop();
