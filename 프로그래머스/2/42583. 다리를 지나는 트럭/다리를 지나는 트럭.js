@@ -18,7 +18,7 @@ function solution(bridge_length, weight, truck_weights) {
 			// 다리 무게 제한에 걸렸거나 대기 트럭이 없는 경우
 			if (bridge[0]) {
 				// 그 중 다리 무게 제한인 경우,
-                // 다리 위 첫번째 트럭이 빨리 지나가도록 시간을 첫번째 트럭 완료 시간으로 점프
+				// 다리 위 첫번째 트럭이 빨리 지나가도록 시간을 첫번째 트럭 완료 시간으로 점프
 				time = bridge[0][1] - 1;
 			}
 		}
