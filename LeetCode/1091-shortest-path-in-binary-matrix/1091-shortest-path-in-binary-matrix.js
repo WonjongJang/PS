@@ -17,14 +17,16 @@ var shortestPathBinaryMatrix = function (grid) {
 	while (que.length) {
 		const [x, y] = que.shift();
 
+		// 도착점인 경우 반환
+		if (x === n - 1 && y === n - 1) {
+			return visited[x][y];
+		}
+
 		for (let d = 0; d < 8; d++) {
 			const nx = x + dx[d];
 			const ny = y + dy[d];
 
-			// 도착점인 경우
-			if (nx === n - 1 && ny === n - 1) {
-				return visited[x][y] + 1;
-			}
+			// 도착점인 경우 반환하는 것을 여기에 넣을 경우 1 x 1 행렬인 테스트 케이스에 걸림
 
 			if (0 <= nx && nx < n && 0 <= ny && ny < n && grid[nx][ny] === 0 && visited[nx][ny] === 0) {
 				que.push([nx, ny, visited[x][y] + 1]);
