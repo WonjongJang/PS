@@ -8,7 +8,7 @@ var fib = function (n) {
 
 	const dp = Array.from({ length: n + 1 }).fill(0);
     // 공간 복잡도 줄이는 방법
-    // const dp = Array.from({ length: n + 1 }).fill(0);
+    // const dp = [0, 0]
 
 	dp[0] = 0;
 	dp[1] = 1;
